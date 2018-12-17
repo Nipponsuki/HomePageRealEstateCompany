@@ -1,0 +1,73 @@
+.header {
+  background-image: linear-gradient(rgba($color-black-1,.93),rgba($color-black-1,.93)), url(../img/hero-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 8rem;
+  padding-top: 4rem;
+  grid-column: full-start / col-end 6;
+
+  display: grid;
+  grid-template-row: 1fr min-content minmax(6rem, min-content) 1fr;
+  grid-template-columns: minmax(min-content,max-content);
+  grid-row-gap: 1rem;
+  justify-content: center;
+
+  @media only screen and (max-width: $bp-medium){
+    grid-column: 1/-1;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 5rem;
+  }
+
+  h3{
+    // align-self: center;
+    // justify-self: center;
+  }
+
+
+  &__logo {
+    height: 10rem;
+    justify-self: center;
+    margin-bottom: 5rem;
+
+  }
+  &__btn {
+    align-self: center;
+    justify-self: start;
+  }
+
+  // &__seenon-text {
+  //   display: grid;
+  //   grid-template-columns: 1fr max-content 1fr;
+  //   font-size: 1.6rem;
+  //   color: $color-secondary;
+  //   grid-column-gap: 1.5rem;
+  //   justify-content: center;
+  //   align-items: center;
+  //
+  //   &::before,
+  //   &::after {
+  //     content: "";
+  //     height: 1px;
+  //     display: block;
+  //     color: currentColor;
+  //   }
+
+
+  &__seenon-logos {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 3rem;
+    justify-items: center;
+
+    img{
+      width: 50%;
+      // max-height: 100%;
+      // filter: brightness(60%);
+      // justify-items: center;
+      padding-top: 4rem;
+    }
+
+  }
+}
