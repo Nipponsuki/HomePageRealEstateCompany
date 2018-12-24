@@ -516,12 +516,40 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/preloader.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/preloader-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/prepros-6.config": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/prepros-6.config",
 		"oF": 0
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/sass/_base.scss": {
 		"aP": 0,
