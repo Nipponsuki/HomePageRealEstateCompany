@@ -19,6 +19,26 @@ body {
   line-height: 1.6;
   background-color: #9EADC8; }
 
+body.preloader-site {
+  overflow: hidden; }
+
+.preloader-wrapper {
+  height: 100%;
+  width: 100%;
+  background: #262626;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999; }
+
+.preloader-wrapper .preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .preloader-wrapper .preloader img {
+    border-radius: 25px; }
+
 .container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
